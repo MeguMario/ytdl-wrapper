@@ -1,11 +1,12 @@
 
 # **a simple yet clusterfuck ytdl wrapper**
 
-a small program that i wrote in C# (the second one in my life) to simplify the use of ytdl when i need it the most
+a small console program that i wrote in C# (the second one in my life) to simplify the use of ytdl when i need it the most
 
 # Available feature:
 - A simple updater (you'll need to run this first as this won't include youtube-dl and ffmpeg out of the box)
 - As of right now, only 3 modes are available: video & audio, audio-only, and all playlist.
+- No UI, it's just a console application
 
 # Run it
  - Double click on the executable, enter 5 in order to download both ytdl and ffmpeg binary

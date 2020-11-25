@@ -18,4 +18,4 @@ You will also need [7-zip](https://www.7-zip.org/download.html) in order to get 
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 - [ffmpeg](https://ffmpeg.org/)
 - [7-zip](https://www.7-zip.org/)
-- possibly every dependancy ever used in this project which i forgot
+- possibly every dependancies ever used in this project which i forgot

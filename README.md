@@ -1,5 +1,5 @@
 
-**a simple yet clusterfuck ytdl wrapper**
+# **a simple yet clusterfuck ytdl wrapper**
 
 a small program that i wrote in C# (the second one in my life) to simplify the use of ytdl when i need it the most
 

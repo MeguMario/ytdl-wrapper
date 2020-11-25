@@ -13,6 +13,7 @@ a small console program that i wrote in C# (the second one in my life) to simpli
  - Voila!
 # Build it
 You will need to have [Visual Studio](https://visualstudio.microsoft.com/) and [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1https://dotnet.microsoft.com/download/dotnet-core/3.1) in order to build this
+
 You will also need [7-zip](https://www.7-zip.org/download.html) in order to get the extraction part of this working
 # Credit
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl)

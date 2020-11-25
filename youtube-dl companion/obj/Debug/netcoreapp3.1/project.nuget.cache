@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iNHRUdASUnPku3P9UJTNV2/FYn9TdgNmXEBxdace+S7jHuS2lrpzZ9hmHsdqMhVmHOJzGqGWZQ0vlZdgGXb89g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ttrun\\source\\repos\\youtube-dl companion\\youtube-dl companion\\youtube-dl companion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ttrun\\.nuget\\packages\\7-zip.commandline\\18.1.0\\7-zip.commandline.18.1.0.nupkg.sha512",
+    "C:\\Users\\ttrun\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

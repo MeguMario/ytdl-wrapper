@@ -14,7 +14,7 @@ namespace youtube_dl_companion
             // some ytdl command arg
             string bz = "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best";
             string ba = "bestaudio[ext=m4a]";
-            string ap = "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s";
+            string ap = "\"%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s\"";
             // case switch time
             Console.Write("Enter your selection, 4 to help, 5 to update youtube-dl & ffmpeg (1-5): ");
             sbyte caseSw = Convert.ToSByte(Console.ReadLine());
@@ -45,7 +45,7 @@ namespace youtube_dl_companion
                     {
                         Console.WriteLine("Type Youtube Playlist");
                         string u = Console.ReadLine();
-                        string ytdl = $"youtube-dl.exe -f {ap} {u}";
+                        string ytdl = $"youtube-dl.exe -f {ba} -o {ap} {u}";
                         System.Diagnostics.Process.Start("CMD.exe", "/C" + ytdl);
                         Console.ReadKey();
                         break;

@@ -27,7 +27,6 @@ namespace youtube_dl_companion
                         string u = Console.ReadLine();
                         string ytdl = $"youtube-dl.exe -f {bz} {u}";
                         System.Diagnostics.Process.Start("CMD.exe", "/C" + ytdl);
-                        Console.ReadKey();
                         break;
                     }   
                 // audio only
@@ -37,7 +36,6 @@ namespace youtube_dl_companion
                         string u = Console.ReadLine();
                         string ytdl = $"youtube-dl.exe -f {ba} {u}";
                         System.Diagnostics.Process.Start("CMD.exe", "/C" + ytdl);
-                        Console.ReadKey();
                         break;
                     }
                 // download a whole playlist
@@ -45,9 +43,8 @@ namespace youtube_dl_companion
                     {
                         Console.WriteLine("Type Youtube Playlist");
                         string u = Console.ReadLine();
-                        string ytdl = $"youtube-dl.exe -f {ba} -o {ap} {u}";
+                        string ytdl = $"youtube-dl.exe -f {bz} -o {ap} {u}";
                         System.Diagnostics.Process.Start("CMD.exe", "/C" + ytdl);
-                        Console.ReadKey();
                         break;
                     }
                 // the worst help section ever

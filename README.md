@@ -5,12 +5,13 @@ a small console program that i wrote in C# (the second one in my life) to simpli
 
 # Available feature:
 - A simple updater (you'll need to run this first as this won't include youtube-dl and ffmpeg out of the box)
-- As of right now, only 3 modes are available: video & audio, audio-only, and all playlist.
+- As of right now, only 4 modes are available: video & audio, audio-only, playlist and playlist audio-only.
 - No UI, it's just a console application
 
 # Run it
- - Double click on the executable, enter 5 in order to download both ytdl and ffmpeg binary
+ - Double click on the executable, update ytdl and ffmpeg.
  - Voila!
+ 
 # Build it
 You will need to have [Visual Studio](https://visualstudio.microsoft.com/) and [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1https://dotnet.microsoft.com/download/dotnet-core/3.1) in order to build this
 
